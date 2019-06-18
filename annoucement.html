@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Main Page</title>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="annoucement.html">Annoucement<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="result.html">Result</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="programs.html">Programs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="activities.html">Activities</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-3" type="search" placeholder="Student ID" aria-label="Search">
+                        <button class="btn btn-outline-success my-4 my-sm-3" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+        <section class="spad">
+            <div class="prog">
+                <button id="button">Click here!</button>
+                <div id="foo"></div>
+                <h1 class="annouch">Today is the Last Day!</h1>
+                <p class="annp">sdkjfksjdfkdj ksdjfsdjf ksdjfkj fdjfsdj fjdsfkj djfjsd  dsjkfj dfjjfsdkj fdk fdskjdsf kjfkdsj fksd fkjsdkfjk sdfk fkd kfdj ksdjfkj sdkfjkjsd fkjsdfk fjkfsdjkf kjsfkjk fsksfjkjsf kksf kfsjk jsfkjskfj ksjdfk skdfk fsk jsfkj fk ksfdkjfksjf  sdfkj ksdjfks fdjkj fkd ksdjf jsfd kjfkjfsd kf ksjfdkj fksj kf kj sfk fsjkjsfdk jfsk fj ksdj kjfskjksfd jksfjd</p>
+            </div>
+            <div class="prog">
+                <h1 class="annouch">Be sure to Register!</h1>
+                <p class="annp">sdkjfksjdfkdj ksdjfsdjf ksdjfkj fdjfsdj fjdsfkj djfjsd  dsjkfj dfjjfsdkj fdk fdskjdsf kjfkdsj fksd fkjsdkfjk sdfk fkd kfdj ksdjfkj sdkfjkjsd fkjsdfk fjkfsdjkf kjsfkjk fsksfjkjsf kksf kfsjk jsfkjskfj ksjdfk skdfk fsk jsfkj fk ksfdkjfksjf  sdfkj ksdjfks fdjkj fkd ksdjf jsfd kjfkjfsd kf ksjfdkj fksj kf kj sfk fsjkjsfdk jfsk fj ksdj kjfskjksfd jksfjd</p>
+            </div>
+            <div class="prog">
+                <h1 class="annouch">Classes Starts Tommorrow!</h1>
+                <p class="annp">sdkjfksjdfkdj ksdjfsdjf ksdjfkj fdjfsdj fjdsfkj djfjsd  dsjkfj dfjjfsdkj fdk fdskjdsf kjfkdsj fksd fkjsdkfjk sdfk fkd kfdj ksdjfkj sdkfjkjsd fkjsdfk fjkfsdjkf kjsfkjk fsksfjkjsf kksf kfsjk jsfkjskfj ksjdfk skdfk fsk jsfkj fk ksfdkjfksjf  sdfkj ksdjfks fdjkj fkd ksdjf jsfd kjfkjfsd kf ksjfdkj fksj kf kj sfk fsjkjsfdk jfsk fj ksdj kjfskjksfd jksfjd</p>
+            </div>
+            <div class="prog">
+                <h1 class="annouch">Register for the Sports before May 10th!</h1>
+                <p class="annp">sdkjfksjdfkdj ksdjfsdjf ksdjfkj fdjfsdj fjdsfkj djfjsd  dsjkfj dfjjfsdkj fdk fdskjdsf kjfkdsj fksd fkjsdkfjk sdfk fkd kfdj ksdjfkj sdkfjkjsd fkjsdfk fjkfsdjkf kjsfkjk fsksfjkjsf kksf kfsjk jsfkjskfj ksjdfk skdfk fsk jsfkj fk ksfdkjfksjf  sdfkj ksdjfks fdjkj fkd ksdjf jsfd kjfkjfsd kf ksjfdkj fksj kf kj sfk fsjkjsfdk jfsk fj ksdj kjfskjksfd jksfjd</p>
+            </div>
+            <h1 class="proghead">Following student should visit office</h1>
+            <ul>
+                <li>1st year</li>
+                <li>junior student</li>
+                <li>biology studnets</li>
+                <li>class 10th</li>
+                <li>newly graudated</li>
+                <li>midterm</li>
+            </ul>
+        </section>
+        <footer>
+            <div class="footer-nav">
+                <a class="footer-link" href="about-us.html">About Us</a>
+            </div>
+            <p id="footer">Copyright &copy; Some Foundation 2019</p>
+        </footer>
+    </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            document.getElementById('button').onclick = function(){
+                document.getElementById('foo').innerHTML = 'HELLO, world!';
+            }
+        })
+    </script>
+</html>
